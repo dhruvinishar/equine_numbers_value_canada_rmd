@@ -1,6 +1,6 @@
 ---
 title: "Historical horse population in Canada"
-output: pdf_document
+output: html_document
 toc: true
 params:
   data: "00030067-eng.csv" 
