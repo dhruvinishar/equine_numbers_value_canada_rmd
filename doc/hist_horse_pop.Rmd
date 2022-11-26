@@ -47,6 +47,7 @@ horse_plot <- ggplot(horse_pop, aes(x = Ref_Date, y = Value)) +
   facet_grid(~GEO) +
   scale_y_continuous(labels = scales::comma) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
+# added figure captions in the chunk options
 horse_plot
 ```
 
@@ -79,6 +80,7 @@ province_plot <- horse_pop %>%
   facet_grid(~GEO) +
   scale_y_continuous(labels = scales::comma) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
+# added figure captions in the chunk options
 province_plot
 ```
 
